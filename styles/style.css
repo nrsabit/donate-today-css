@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+h1, h2, h3, h4{
+    font-family: 'Inter', sans-serif
+}
+.primary-button{
+    padding: 15px 20px;
+    background: #FF5959;
+    color: #FFf;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* header styles */
+header{
+    background-image: url('../images/donation7.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+}
+
+/* Banner Styles */
+.banner{
+    text-align: center;
+    padding: 170px 300px;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.banner-description{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+/* Donate Today Section Styles */
+.donate-today{
+    text-align: center;
+    margin: 0px auto;
+    max-width: 800px;
+    margin: 130px auto;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: #121212;
+}
+.section-description{
+    color: #707070;
+}
+.donate-today .section-title{
+    margin-bottom: 30px;
+}
+.donate-today .section-description{
+    margin: 0px 60px 40px 60px;
+}
+.donate-amount-container{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+}
+.donate-amount{
+    padding: 35px 18px;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+.donate-amount h3{
+    color: #707070;
+    font-weight: 700;
+    font-size: 35px;
+}
+.donate-amount:nth-child(2){
+    border: 3px solid #FF5959;
+    background-color: #fbeeee;
+}
+.donate-amount:nth-child(2) h3{
+    color: #FF5959;
+}
+.donate-subtitle{
+    color: #b3b3b3;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+hr{
+    height: 0px;
+    border: 1px solid #dadada;
+    margin-bottom: 35px;
+}
+
+/* Donate Plan Section Styles */
+.donate-plan{
+    max-width: 1120px;
+    margin: 130px auto;
+    text-align: center;
+}
+.donate-plan .section-title{
+    margin-bottom: 30px;
+}
+.donate-plan > .section-description{
+    max-width: 625px;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.donate-items-container{
+    display: flex;
+    gap: 24px;
+}
+.donate-item{
+    text-align: left;
+    padding: 50px 25px;
+    border-radius: 5px;
+}
+.donate-item img{
+    margin-bottom: 35px;
+}
+.donate-item-title{
+    font-size: 30px;
+    color: #121212;
+    margin-bottom: 25px;
+}
+.donate-item:first-child{
+    background-color: #EDF5F6;
+}
+.donate-item:nth-child(2){
+    background-color: #FBEEEE;
+}
+.donate-item:last-child{
+    background-color: #FCF4D6;
+}
+
+/* Contribute Section Styles */
+.contribute-main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.contribute-main img{
+    border-radius: 5px;
+    max-width: 450px;
+}
+.contribute-first{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-right: 135px;
+}
+.contribute-second{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-right: 100px;
+}
+.contribute-main .section-title{
+    margin-bottom: 20px;
+}
+.contribute-main .section-description{
+    margin-bottom: 30px;
+}
+
+/* Update Sectio Styles */
+.update-container{
+    max-width: 810px;
+    margin: 130px auto;
+    text-align: center;
+}
+.update-container .section-description{
+    margin: 30px 80px 45px 80px;
+}
+.subscribe-container{
+    padding: 70px 180px;
+    border-radius: 5px;
+    background-color: #FCF4D6;
+    gap: 0;
+}
+.subscribe-container input{
+    border-radius: 5px 0 0 5px;
+    width: 270px;
+    border: none;
+    outline: none;
+    background-color: #d9d9d9;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px 20px;
+}
+.subscribe-container .primary-button{
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+    font-size: 16px;
+}
+footer{
+    background-color: #0B0D17;
+    padding: 45px 0px;
+    text-align: center;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FF5959;
+    margin-bottom: 25px;
+}
+footer p{
+    font-size: 14px;
+    color: #fff;
+}
